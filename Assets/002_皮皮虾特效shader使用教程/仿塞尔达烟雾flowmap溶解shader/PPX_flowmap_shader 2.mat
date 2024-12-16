@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PPX_flowmap_shader 2
+  m_Shader: {fileID: 4800000, guid: 533c5459293338042b404475d0d4034e, type: 3}
+  m_ShaderKeywords: _USE_DISSOLVE_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Distort_mask:
+        m_Texture: {fileID: 2800000, guid: c04b705f7e375fc4ba85031deecb9043, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Distort_tex:
+        m_Texture: {fileID: 2800000, guid: 94b022be5711f7e46bdadeefe86d7520, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _base_texture:
+        m_Texture: {fileID: 2800000, guid: aac6f6954ba231041b9193611de33f96, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _dissolve_texture:
+        m_Texture: {fileID: 2800000, guid: 87e7e279df915f1479f290d84241c7d7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _emissive_map:
+        m_Texture: {fileID: 2800000, guid: d47ed7993a8e28f419b8ea34eea6a528, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _flowmap:
+        m_Texture: {fileID: 2800000, guid: d782e88d87f9d1744975bb645e3883b8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Cull: 0
+    - _Distort_power: 0
+    - _Emissive_power: 1
+    - _Glow: 1
+    - _HUE: 0.014
+    - _Saturation: 0
+    - _Time_scale: 1
+    - _Value: 0
+    - _X_speed: 0
+    - _Y_speed: -1
+    - _Zwrite: 0
+    - _add_or_blend: 1
+    - _alpha_power: 1
+    - _dissolve: 1
+    - _edge_hardness: 14.2
+    - _flow: 0
+    - _use_curve_dissolve: 0
+    - _use_custom1_z_flow: 0
+    - _use_dissolve: 1
+    m_Colors:
+    - _Base_color: {r: 0.6886792, g: 0.43488705, b: 0.28261837, a: 0}
+    - _Distort_iv: {r: 1, g: 1, b: 0, a: 0}
+    - _Distort_mask_uv: {r: 1, g: 1, b: 0, a: 0}
+    - _Distort_uv: {r: 2, g: 1, b: 0, a: 0}
+    - _Emissive_color: {r: 1, g: 0.3944504, b: 0.062745094, a: 0}
+  m_BuildTextureStacks: []

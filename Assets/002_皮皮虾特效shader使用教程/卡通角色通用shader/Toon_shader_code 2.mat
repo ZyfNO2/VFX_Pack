@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Toon_shader_code 2
+  m_Shader: {fileID: 4800000, guid: 1516589e83972c24b839883cc16b464b, type: 3}
+  m_ShaderKeywords: _USE_EMISSIVE_ON _USE_MATCAT_ON _USE_SECOND_TEX_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseTex:
+        m_Texture: {fileID: 2800000, guid: f30bae06e35a5914a800ab16418a94dd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BuffTex:
+        m_Texture: {fileID: 2800000, guid: 0a7ab33d61947454cbe4937e33e5c55d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BuffTex_switch:
+        m_Texture: {fileID: 2800000, guid: 6ee91df6edaa9584a9510e39d56427d3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emissive_Tex:
+        m_Texture: {fileID: 2800000, guid: 0f3cdb642ea13f0488f850e308a78be5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _dissolve:
+        m_Texture: {fileID: 2800000, guid: 6cbc96ac9de0c8c43b067d878d0651c0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _matcap:
+        m_Texture: {fileID: 2800000, guid: 6a7c95d39bd32984a8e2dd84f952ffe9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _normal_map:
+        m_Texture: {fileID: 2800000, guid: fb33025b4470a6444a82f2651374f434, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _special_buff_switch:
+        m_Texture: {fileID: 2800000, guid: 6ee91df6edaa9584a9510e39d56427d3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ASEOutalpha: 0
+    - _ASEOutlineWidth: 0.005
+    - _BuffTex_switch_dissolve: 1
+    - _BuffTex_switch_edge_hardness: 22
+    - _Cutoff: 0.5
+    - _Emissve_power: 3
+    - __dirty: 1
+    - _dissolve_Emissve_power: 0
+    - _dissolve_edge_dissolve: 1
+    - _edge_clip: 0
+    - _edge_width: 0
+    - _frensel_hard: 0
+    - _frensel_power: 0
+    - _frensel_range: 0
+    - _shadow_clip: 0.5
+    - _shadow_edge: 0
+    - _special_buff_dissolve: 1
+    - _special_buff_switch_edge_hardness: 1
+    - _use_dissolve: 0
+    - _use_emissive: 1
+    - _use_frensel: 0
+    - _use_matcat: 1
+    - _use_second_tex: 1
+    m_Colors:
+    - _ASEOutlineColor: {r: 0.065742634, g: 0.020069422, b: 0.38679248, a: 1}
+    - _Emissve_color: {r: 1, g: 0, b: 0, a: 0}
+    - _dissolve_Emissve_color: {r: 0, g: 0, b: 0, a: 0}
+    - _drak: {r: 0.5074429, g: 0.42973477, b: 0.8207547, a: 0}
+    - _frensel_color: {r: 0, g: 0, b: 0, a: 0}
+    - _light: {r: 1, g: 1, b: 1, a: 0}
+  m_BuildTextureStacks: []
