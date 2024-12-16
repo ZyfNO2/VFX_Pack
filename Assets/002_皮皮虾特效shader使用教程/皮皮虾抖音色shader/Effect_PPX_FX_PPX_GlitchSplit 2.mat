@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Effect_PPX_FX_PPX_GlitchSplit 2
+  m_Shader: {fileID: 4800000, guid: ba3f7b23dd6433d4c881362575ce0572, type: 3}
+  m_ShaderKeywords: _CUSTOM1_X_CONTROL_SHIFT_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3998
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _mask:
+        m_Texture: {fileID: 2800000, guid: 7bb73c8da9dff5c43ae7b76d91ef4c9f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _mask2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Base_alpha: 3
+    - _Cull: 0
+    - _X_speed: 1
+    - _Y_speed: 0
+    - _ZTest: 8
+    - _ZWrite: 0
+    - _custom1_x_control_shift: 1
+    - _custom1_zw_move_uv: 0
+    - _scale: 0.083
+    - _shift: 0.851
+    - _speed: 1
+    m_Colors:
+    - _noise_mask_uv: {r: 1, g: 12, b: 0, a: 0}
+  m_BuildTextureStacks: []
